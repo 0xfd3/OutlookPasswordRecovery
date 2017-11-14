@@ -31,3 +31,6 @@ Dim pRegKey As RegistryKey() = {Registry.CurrentUser.OpenSubKey("Software\Micros
             Registry.CurrentUser.OpenSubKey("Software\Microsoft\Windows Messaging Subsystem\Profiles\9375CFF0413111d3B88A00104B2A6676"),
             Registry.CurrentUser.OpenSubKey("Software\Microsoft\Office\16.0\Outlook\Profiles\Outlook\9375CFF0413111d3B88A00104B2A6676")}
 ```
+
+# Reference
+http://securityxploded.com/outlookpasswordsecrets.php
