@@ -75,7 +75,7 @@ Module Module1
                                     Try
                                         byteSmtp = key.GetValue("SMTP Server")
                                     Catch ex As Exception
-                                        byteSmtp = DirectCast(smtpObj, Byte())
+                                        byteSmtp = System.Text.Encoding.Unicode.GetBytes(smtpObj)
                                     End Try
                                 Else
                                     byteSmtp = enc.GetBytes("Nothing")
